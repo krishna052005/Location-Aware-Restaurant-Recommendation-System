@@ -1,7 +1,8 @@
-#Location-Aware Restaurant Recommendation System
+# Location-Aware Restaurant Recommendation System
 
-A real-world machine learning recommender system that suggests restaurants based on user location, cuisine preference, and budget using distance-based similarity models.\
-This project is inspired by food discovery platforms like Zomato and Yelp.
+_A real-world machine learning recommender system that suggests restaurants based on user location, cuisine preference, and budget using distance-based similarity models.\
+This project is inspired by food discovery platforms like Zomato and Yelp._
+
 ---
 
 # 📌 Problem Statement
@@ -12,6 +13,7 @@ Build a location-aware restaurant recommendation system that:\
 Accepts user preferences (city, cuisine, budget)\
 Uses geographical and restaurant metadata\
 Recommends the most relevant restaurants using ML similarity techniques
+
 ---
 
 # 🚀 Features
@@ -21,32 +23,35 @@ Location-aware recommendations using latitude & longitude\
 Cuisine and budget-based filtering\
 Distance-based KNN recommendation model\
 Exploratory Data Analysis (EDA) with insights\
-User input–driven recommendations\
+User input–driven recommendations
+
 ---
 
 # 🧠 Real-World Challenges Addressed
 
-Sparse and uneven restaurant ratings
-Geographical constraints (distance matters)
-Popularity bias (ratings vs votes)
+Sparse and uneven restaurant ratings\
+Geographical constraints (distance matters)\
+Popularity bias (ratings vs votes)\
 Cold-start users (no past history)
+
 ---
 
 # 📊 Dataset
 
-Source: Kaggle
-Dataset: Zomato Global Restaurant Dataset
-Size: ~9,500 restaurants
-Type: Static CSV dataset
+Source: Kaggle\
+Dataset: Zomato Global Restaurant Dataset\
+Size: ~9,500 restaurants\
+Type: Static CSV dataset\
 
-Key Attributes Used:
-Restaurant Name
-City
-Latitude & Longitude
-Cuisines
-Average Cost for Two
-Aggregate Rating
+Key Attributes Used:\
+Restaurant Name\
+City\
+Latitude & Longitude\
+Cuisines\
+Average Cost for Two\
+Aggregate Rating\
 Votes
+
 ---
 
 # Tech Stack
@@ -63,42 +68,45 @@ Votes
 ---
 # 🔍 Exploratory Data Analysis (EDA)
 
-The EDA phase focuses on:
+The EDA phase focuses on:\
 
-Identifying top restaurant cities
-Analyzing popular cuisines
-Understanding cost vs rating trends
-Observing restaurant density patterns
+Identifying top restaurant cities\
+Analyzing popular cuisines\
+Understanding cost vs rating trends\
+Observing restaurant density patterns\
 
-Key Insights:
-Metro cities dominate restaurant availability
-Mid-range restaurants often receive higher ratings
-Cuisine popularity varies significantly by location
+Key Insights:\
+
+Metro cities dominate restaurant availability\
+Mid-range restaurants often receive higher ratings\
+Cuisine popularity varies significantly by location\
 High vote count improves trust in ratings
+
 ---
 
 # 🤖 Model Used
-🔹 K-Nearest Neighbors (KNN)
+🔹 K-Nearest Neighbors (KNN)\
 
-Uses Euclidean distance
-Works well for similarity-based recommendations
-Naturally supports location-aware filtering
-Ideal for cold-start users
+Uses Euclidean distance\
+Works well for similarity-based recommendations\
+Naturally supports location-aware filtering\
+Ideal for cold-start users\
 
-🔹Features Used for Similarity
-Latitude & Longitude
-Encoded City
-Encoded Cuisine
-Average Cost for Two
-Aggregate Rating
+🔹Features Used for Similarity\
+Latitude & Longitude\
+Encoded City\
+Encoded Cuisine\
+Average Cost for Two\
+Aggregate Rating\
+
 ---
 
 #🎯 How Recommendations Work
 
-User provides:
-City
-Preferred cuisine
-Budget for two
-Input is encoded and scaled
-KNN finds nearest restaurants based on similarity
+User provides:\
+City\
+Preferred cuisine\
+Budget for two\
+Input is encoded and scaled\
+KNN finds nearest restaurants based on similarity\
 Top matching restaurants are returned
