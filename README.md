@@ -101,7 +101,7 @@ Aggregate Rating
 
 ---
 
-#🎯 How Recommendations Work
+# 🎯 How Recommendations Work
 
 User provides:\
 City\
