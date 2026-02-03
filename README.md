@@ -1,4 +1,4 @@
-# Location-Aware Restaurant Recommendation System
+#Location-Aware Restaurant Recommendation System
 
 A real-world machine learning recommender system that suggests restaurants based on user location, cuisine preference, and budget using distance-based similarity models.\
 This project is inspired by food discovery platforms like Zomato and Yelp.
