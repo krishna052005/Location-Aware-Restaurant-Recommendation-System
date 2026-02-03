@@ -41,7 +41,7 @@ Cold-start users (no past history)
 Source: Kaggle\
 Dataset: Zomato Global Restaurant Dataset\
 Size: ~9,500 restaurants\
-Type: Static CSV dataset\
+Type: Static CSV dataset
 
 Key Attributes Used:\
 Restaurant Name\
@@ -68,14 +68,14 @@ Votes
 ---
 # 🔍 Exploratory Data Analysis (EDA)
 
-The EDA phase focuses on:\
+The EDA phase focuses on:
 
 Identifying top restaurant cities\
 Analyzing popular cuisines\
 Understanding cost vs rating trends\
-Observing restaurant density patterns\
+Observing restaurant density patterns
 
-Key Insights:\
+Key Insights:
 
 Metro cities dominate restaurant availability\
 Mid-range restaurants often receive higher ratings\
@@ -85,19 +85,19 @@ High vote count improves trust in ratings
 ---
 
 # 🤖 Model Used
-🔹 K-Nearest Neighbors (KNN)\
+🔹 K-Nearest Neighbors (KNN)
 
 Uses Euclidean distance\
 Works well for similarity-based recommendations\
 Naturally supports location-aware filtering\
-Ideal for cold-start users\
+Ideal for cold-start users
 
 🔹Features Used for Similarity\
 Latitude & Longitude\
 Encoded City\
 Encoded Cuisine\
 Average Cost for Two\
-Aggregate Rating\
+Aggregate Rating
 
 ---
 
